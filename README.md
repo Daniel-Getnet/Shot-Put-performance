@@ -6,12 +6,6 @@ This project analyzes the key biomechanical and body composition features that i
 
 The purpose of this study is to identify the most influential factors in shot put performance and predict shot distances using machine learning. By leveraging a dataset of elite shot put athletes and assessing various biomechanical and body composition features, this study provide insights that can help athletes and coaches optimize performance.
 
-## Key Findings
-
-- **Top Predictors**: The feature selection process identified that release velocity, gender, shot path length, and body mass are the most influential predictors of shot put performance.
-- **Model Performance**: Gradient Boosting (GB) emerged as the best model, achieving an R² of 0.8248, MAE of 0.4474, and RMSE of 0.6500.
-- **Evaluation Metrics**: Models were evaluated using R², Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
-
 ## Dataset
 
 The dataset consists of 37 elite shot putters, with 15 biomechanical features obtained from the World Athletics reports of the 2017 and 2018 world championships. The dataset includes both male and female athletes and has been preprocessed to fill missing values with the mean of each feature.
@@ -31,6 +25,11 @@ The dataset consists of 37 elite shot putters, with 15 biomechanical features ob
 
 ### Target Variable
  Distance
+ ## Key Findings
+
+- **Top Predictors**: The feature selection process identified that release velocity, gender, shot path length, and body mass are the most influential predictors of shot put performance.
+- **Model Performance**: Gradient Boosting (GB) emerged as the best model, achieving an R² of 0.8248, MAE of 0.4474, and RMSE of 0.6500.
+- **Evaluation Metrics**: Models were evaluated using R², Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
  ## Conclusions
 
 Analysis of feature importance in the Random Forest (RF) model identified **release velocity**, **gender**, **shot path length**, and **body mass** as the most influential predictors of shot put distance. These features significantly improved the model's accuracy, highlighting key factors in shot put performance.
