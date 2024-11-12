@@ -31,7 +31,7 @@ The dataset consists of 37 elite shot putters, with 15 biomechanical features ob
 
 ### Target Variable
  Distance
- ## 6. Conclusions
+ ## Conclusions
 
 Analysis of feature importance in the Random Forest (RF) model identified **release velocity**, **gender**, **shot path length**, and **body mass** as the most influential predictors of shot put distance. These features significantly improved the model's accuracy, highlighting key factors in shot put performance.
 
